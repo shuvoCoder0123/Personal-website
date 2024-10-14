@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.nav_bar{
+    display: flex;
+    padding-bottom: 0;
+}
+.nav_logo{
+    width:20%;
+    text-align:left;
+    margin:auto 0;
+    margin-left: 20px;
+}
+.nav_heading{
+    width:40%;
+    text-align: center;
+    margin:auto 0;
+} .nav_heading h1{
+    margin: 0;
+    padding: 0;
+}
+.nav_bar p{
+
+    margin-bottom:0px;
+    padding: 0;
+    text-align: center;
+}
+.nav_menu{
+    width:40%;
+    text-align: center;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin:auto 2%;
+}
+.nav_bar a{
+    text-decoration: none;
+    color:#ffff;
+    margin:0;
+    padding: 0;
+    background-color:transparent;
+    border:none;
+    padding-right: 25px;
+    
+}
+.nav_bar img{
+    margin-top:4px;
+}
+
+/* Profile design starts form here */
+
+.portfolio_desc{
+    width:60%;
+    margin: 100px auto;
+}
+
+/* About_me area design starts from here */
+
+.about_me{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.img_with_moto{
+    width:50%;
+    padding:2% 2%;
+    margin-left: 20px;
+    
+}
+.about_desc{
+    text-align:left;
+
+}
+.about_img{
+    text-align: left;
+    margin-top: 40px;
+    display:flex;
+    
+}
+.identity{
+    padding:2%;
+    margin-top: 40px;
+    padding-right: 50px;
+    
+}
+.text_arae{
+    margin-left: 50px;
+    margin-top: 30px;
+    border-bottom: none;
+}
+.text_arae h3 , .text_arae p{
+color:#ffff;
+font-family: "Satisfy", cursive;
+}
+button{
+    margin-top: 20px;
+}
+/* Bio-area strats from here */
+
+.bio_area{
+    margin: 0 0;
+    padding: 0;
+    display: flex;
+}
+.card_design_class{
+    width:32%;
+    margin: 15 1%;
+}
+.card_design_class:hover{
+    width:32%;
+    border:4px solid #0c6168;
+   }
+   .about_me {
+    background-color: #0c6168;
+    padding: 4%;
+    height: 630px;
+   }
+ .personal_info{
+    display: flex;
+ }
+ .personal_area_common{
+    width:33%;
+    height:390px;
+ }
+ .personal_area_common p{
+   margin-left: 40px;
+ }
+ textarea{
+    min-width:350px;
+    max-width:350px;
+    min-height: 32px;
+ }
+ footer{
+    height:150px;
+ }
+ footer a{
+    display: inline-block;
+    padding: 14px;
+    margin-top: 20px;
+ }
